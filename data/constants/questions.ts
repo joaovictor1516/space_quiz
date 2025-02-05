@@ -105,5 +105,135 @@ export const questions: question[] = [
       "Anéis ao redor dos planetas gigantes"
     ],
     answear: 0
+  },
+  {
+    id: 16,
+    enunciation: "Qual é a velocidade da luz no vácuo?",
+    options: ["300.000 km/s", "150.000 km/s", "500.000 km/s", "1.000.000 km/s"],
+    answear: 0
+  },
+  {
+    id: 17,
+    enunciation: "Qual planeta é conhecido por seus ventos extremamente fortes?",
+    options: ["Netuno", "Marte", "Vênus", "Urano"],
+    answear: 0
+  },
+  {
+    id: 18,
+    enunciation: "O que são exoplanetas?",
+    options: ["Planetas fora do Sistema Solar", "Planetas sem órbita fixa", "Asteroides gigantes", "Luas gasosas"],
+    answear: 0
+  },
+  {
+    id: 19,
+    enunciation: "O que é uma estrela de nêutrons?",
+    options: [
+      "O núcleo colapsado de uma estrela massiva",
+      "Uma nova estrela em formação",
+      "Um planeta morto",
+      "Um buraco negro inicial"
+    ],
+    answear: 0
+  },
+  {
+    id: 20,
+    enunciation: "Quantos dias a Lua leva para orbitar a Terra?",
+    options: ["27", "30", "365", "7"],
+    answear: 0
+  },
+  {
+    id: 21,
+    enunciation: "O que é a radiação cósmica de fundo?",
+    options: [
+      "Resquício do Big Bang",
+      "Explosões solares",
+      "Radiação emitida por buracos negros",
+      "Partículas de meteoros"
+    ],
+    answear: 0
+  },
+  {
+    id: 22,
+    enunciation: "Qual é o nome da sonda que visitou Plutão?",
+    options: ["Voyager 1", "New Horizons", "Cassini", "Pioneer 10"],
+    answear: 1
+  },
+  {
+    id: 23,
+    enunciation: "O que é uma galáxia espiral?",
+    options: [
+      "Uma galáxia sem forma definida",
+      "Uma galáxia com braços curvos",
+      "Uma galáxia em forma de anel",
+      "Uma galáxia irregular"
+    ],
+    answear: 1
+  },
+  {
+    id: 24,
+    enunciation: "Qual é a principal fonte de energia das estrelas?",
+    options: ["Fissão nuclear", "Fusão nuclear", "Gravidade", "Radioatividade"],
+    answear: 1
+  },
+  {
+    id: 25,
+    enunciation: "Qual fenômeno indica a expansão do universo?",
+    options: [
+      "Desvio para o vermelho",
+      "Desvio para o azul",
+      "Lente gravitacional",
+      "Distorção quântica"
+    ],
+    answear: 0
+  },
+  {
+    id: 26,
+    enunciation: "O que é um cometa?",
+    options: [
+      "Um planeta anão",
+      "Um corpo gelado que orbita o Sol",
+      "Uma estrela moribunda",
+      "Um asteroide em rotação"
+    ],
+    answear: 1
+  },
+  {
+    id: 27,
+    enunciation: "Qual é o nome do primeiro homem a pisar na Lua?",
+    options: ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Michael Collins"],
+    answear: 0
+  },
+  {
+    id: 28,
+    enunciation: "Qual é a característica que define um planeta anão?",
+    options: [
+      "Não orbita o Sol",
+      "Não limpou sua órbita de detritos",
+      "É maior que Júpiter",
+      "Possui anéis"
+    ],
+    answear: 1
+  },
+  {
+    id: 29,
+    enunciation: "O que é o cinturão de Kuiper?",
+    options: [
+      "Uma região de planetas",
+      "Uma área de asteroides entre Marte e Júpiter",
+      "Uma região de objetos gelados além de Netuno",
+      "Uma nebulosa próxima à Via Láctea"
+    ],
+    answear: 2
+  },
+  {
+    id: 30,
+    enunciation: "Qual é o nome da teoria que explica a origem do universo?",
+    options: [
+      "Teoria da Evolução",
+      "Teoria da Relatividade",
+      "Teoria do Big Bang",
+      "Teoria Quântica"
+    ],
+    answear: 2
   }
 ];
