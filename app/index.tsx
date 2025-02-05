@@ -1,15 +1,13 @@
-import { Text, View } from "react-native";
+import { questions } from "@/data/constants/questions";
+import { Logo } from "@/components/templates/logo";
+import { Page } from "@/components/templates/Page";
+import { Text } from "react-native";
 
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-    </View>
+    <Page>
+      <Logo/>
+    
+    </Page>
   );
 }
