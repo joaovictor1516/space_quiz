@@ -1,6 +1,6 @@
 export interface question{
     id: number;
-    enunciation: string;
+    statement: string;
     options: string[];
     answear: number;
 }
