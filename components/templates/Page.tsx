@@ -8,11 +8,12 @@ export interface PageProps {
 
 export function Page(props: PageProps){
      return (
-          <View>
+          <View style={ styles.container }>
                <ImageBackground 
                     source={ backgroundImage }
                     resizeMode="cover"
                     style={ styles.image }
+                    imageStyle={{ opacity: 0.5 }}
                >
 
                     {props.children}
@@ -23,7 +24,13 @@ export function Page(props: PageProps){
 }
 
 const styles = StyleSheet.create({
-     container: {},
+     container: {
+          flex: 1,
+          width: "100%",
+          alignItems: "center",
+          justifyContent: "center",
+          backgroundColor: "#000"
+     },
      image: {
           flex: 1,
           width: "100%",
