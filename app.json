@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "space_quiz",
+    "name": "Space Quiz",
     "slug": "space_quiz",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -32,7 +32,8 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
