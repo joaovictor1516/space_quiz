@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import { question } from "@/data/model/question";
 import { Statment } from "./Statment";
 
