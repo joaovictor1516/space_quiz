@@ -16,15 +16,14 @@ export function Option(props: OptionProps){
 
 const style = StyleSheet.create({
     button: {
-        alignItems: "center",
         backgroundColor: "#2E9D48",
-        paddingVertical: 20,
-        paddingHorizontal: 30,
-        borderRadius: 20
+        paddingVertical: 15,
+        paddingHorizontal: 25,
+        borderRadius: 40
     },
     text: {
         color: "#fff",
-        fontSize: 23,
+        fontSize: 18,
         fontWeight: "bold"
     }
 })
