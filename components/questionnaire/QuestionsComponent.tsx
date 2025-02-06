@@ -15,7 +15,10 @@ export function QuestionsComponent(props: QuestionsProps){
 
             <View style={ styles.options }>
                 {props.question.options.map((option, index) => 
-                    <Option key={ index } index={ index } text={ option } onPress={ props.questionnaireFunctionalit }/>
+                    <Option key={ index } 
+                            index={ index } 
+                            text={ option } 
+                            onPress={ props.questionnaireFunctionalit }/>
                 )}
             </View>
 
