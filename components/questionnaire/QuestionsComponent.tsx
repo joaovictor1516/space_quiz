@@ -17,8 +17,5 @@ export function QuestionsComponent(props: QuestionsProps){
 const styles = StyleSheet.create({
     container: {
         alignItems: "center"
-    },
-    statement: {
-        color: "#fff"
     }
 })
