@@ -8,7 +8,7 @@ export interface OptionProps{
 
 export function Option(props: OptionProps){
     return (
-        <Pressable style={ style.button }>
+        <Pressable style={ style.button } onPress={ props.onPress }>
             <Text style={ style.text }>{ props.text }</Text>
         </Pressable>
     )
