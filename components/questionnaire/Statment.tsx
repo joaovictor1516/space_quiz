@@ -9,7 +9,7 @@ export function Statment(props: StatmentProps){
     return (
         <View style={ styles.container }>
             <LinearGradient
-                colors={["#000000cc", "#00000055"]}
+                colors={["#00d4ff", "#1a7ea7", "#020024"]}
                 style={styles.background}
             />
             <Text style={ styles.statement }>{props.statement}</Text>
