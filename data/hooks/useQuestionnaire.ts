@@ -23,7 +23,12 @@ export function useQuestionnaire(){
         get answear(){
             return questions.
                 map((question) => question.answear).
-                map((response, index) => response === answears[index] ? 1 : 0);
+                map((answear, index) => answear === answears[index]).
+                filter(Boolean).length;
+        },
+
+        get totalQuestions(){
+            return questions.length;
         },
 
         get completed(){
