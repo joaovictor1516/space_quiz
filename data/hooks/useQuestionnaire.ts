@@ -11,7 +11,7 @@ export function useQuestionnaire(){
         const newQuestions = [...questions];
 
         return newQuestions.
-            sort(() => Math.random() - 0.5).
+            sort(() => Math.random()).
             splice(0, 10);
     };
     
@@ -28,7 +28,7 @@ export function useQuestionnaire(){
         },
 
         get totalQuestions(){
-            return questions.length;
+            return questionsList.length;
         },
 
         get completed(){

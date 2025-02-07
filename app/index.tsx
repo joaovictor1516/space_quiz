@@ -19,8 +19,8 @@ export default function Index() {
             <Result reset={ reset } total={ answear } totalQuestions={ totalQuestions }/> 
           ) : 
           (
-            <QuestionsComponent question={question}
-                                questionnaireFunctionalit={toAnswer}/>
+            <QuestionsComponent question={ question }
+                                questionnaireFunctionalit={ toAnswer }/>
           )
         }
 

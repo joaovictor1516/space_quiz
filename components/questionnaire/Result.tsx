@@ -12,7 +12,7 @@ export function Result(props: ResultProps){
             <Text style={ styles.text }>Você acertou: </Text>
             
             <Text style={ styles.importantText }>
-                { Math.round(props.total / props.totalQuestions) * 100 }%
+                { props.total / props.totalQuestions * 100 }%
             </Text>
             
             <Pressable style={ styles.button } onPress={ props.reset }>
