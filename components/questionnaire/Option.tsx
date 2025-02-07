@@ -16,7 +16,7 @@ export function Option(props: OptionProps){
 
 const style = StyleSheet.create({
     button: {
-        backgroundColor: "#2E9D48",
+        backgroundColor: "#2e9d48",
         paddingVertical: 15,
         paddingHorizontal: 25,
         borderRadius: 40

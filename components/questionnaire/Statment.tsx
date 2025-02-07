@@ -20,7 +20,7 @@ export function Statment(props: StatmentProps){
 const styles = StyleSheet.create({
     container: {
         alignItems: "center",
-        backgroundColor: "#852E9C",
+        backgroundColor: "#852e9c",
         padding: 20,
         marginHorizontal: 20,
         borderRadius: 10
