@@ -16,7 +16,7 @@ export function Result(props: ResultProps){
             </Text>
             
             <Pressable style={ styles.button } onPress={ props.reset }>
-                <Text style={ styles.text }>Reiniciar</Text>
+                <Text style={ styles.textButton }>Reiniciar</Text>
             </Pressable>
         </View>
     )
@@ -24,15 +24,31 @@ export function Result(props: ResultProps){
 
 const styles = StyleSheet.create({
     container: {
-        gap: 5
+        alignItems: "center",
+        alignSelf: "center",
+        backgroundColor: "#47556977",
+        paddingVertical: 5,
+        borderRadius: 20,
+        width: 150,
+        height: 90
     },
     importantText: {
-        color: "#fff"
+        color: "#fff",
+        fontSize: 20,
+        fontWeight: 900,
     },
     text: {
+        color: "#94A3B8",
+        fontSize: 14,
+        fontWeight: 600
+    },
+    textButton: {
         color: "#fff"
     },
     button: {
-
+        backgroundColor: "#2e9d48",
+        paddingVertical: 5,
+        paddingHorizontal: 10,
+        borderRadius: 8
     }
 })
