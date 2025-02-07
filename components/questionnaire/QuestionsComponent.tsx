@@ -5,7 +5,7 @@ import { Option } from "./Option";
 
 export interface QuestionsProps{
     question: question;
-    questionnaireFunctionalit: () => void;
+    questionnaireFunctionalit: (index: number) => void;
 }
 
 export function QuestionsComponent(props: QuestionsProps){
@@ -14,11 +14,12 @@ export function QuestionsComponent(props: QuestionsProps){
             <Statment statement={props.question.statement}/>
 
             <View style={ styles.options }>
-                {props.question.options.map((option, index) => 
+                {props.question.options.map((option, index) =>( 
                     <Option key={ index } 
                             index={ index } 
                             text={ option } 
-                            onPress={ props.questionnaireFunctionalit }/>
+                            onPress={ () => props.questionnaireFunctionalit(index) }/>
+                    )
                 )}
             </View>
 
