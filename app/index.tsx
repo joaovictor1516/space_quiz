@@ -1,18 +1,29 @@
 import { QuestionsComponent } from "@/components/questionnaire/QuestionsComponent";
-import { questions } from "@/data/constants/questions";
+import { useQuestionnaire } from "@/data/hooks/useQuestionnaire";
+import { Result } from "@/components/questionnaire/Result";
 import { Logo } from "@/components/templates/Logo";
 import { Page } from "@/components/templates/Page";
-import { Text, View } from "react-native";
+import { View } from "react-native";
 
 export default function Index() {
+  const { question, toAnswer, completed, reset, answear, totalQuestions} = useQuestionnaire();
+
   return (
     <Page>
       <View style={{ gap: 25 }}>
 
         <Logo/>
         
-        <QuestionsComponent question={questions[0]}/>
-      
+        { completed ?
+          (
+            <Result reset={ reset } total={ answear } totalQuestions={ totalQuestions }/> 
+          ) : 
+          (
+            <QuestionsComponent question={question}
+                                questionnaireFunctionalit={toAnswer}/>
+          )
+        }
+
       </View>
     </Page>
   );
