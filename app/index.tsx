@@ -6,7 +6,7 @@ import { Page } from "@/components/templates/Page";
 import { View } from "react-native";
 
 export default function Index() {
-  const { question, toAnswer, completed, reset, answear, totalQuestions} = useQuestionnaire();
+  const { question, toAnswer, completed, reset, answear, totalQuestions } = useQuestionnaire();
 
   return (
     <Page>
